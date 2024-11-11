@@ -21,7 +21,7 @@ public class Program {
 		System.out.print("Enter full file path: ");
 		String path = sc.nextLine();
 
-		try (BufferedReader br = new BufferedReader(new FileReader(path))) { // Fechamento de parênteses corrigido
+		try (BufferedReader br = new BufferedReader(new FileReader(path))) { 
 
 			List<Product> list = new ArrayList<>();
 
